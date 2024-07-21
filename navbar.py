@@ -11,7 +11,7 @@ def create_navbar():
                         html.I(className="fa-brands fa-github"),  # Font Awesome Icon
                         " "  # Text beside icon
                     ],
-                    href="[YOUR GITHUB PROFILE URL]",
+                    href="https://github.com/mcmanus-git",
                     target="_blank"
                 )
 
@@ -22,7 +22,7 @@ def create_navbar():
                         html.I(className="fa-brands fa-medium"),  # Font Awesome Icon
                         " "  # Text beside icon
                     ],
-                    href="[YOUR MEDIUM PROFILE URL]",
+                    href="https://medium.com/@mcmanus_data_works",
                     target="_blank"
                 )
 
@@ -33,7 +33,7 @@ def create_navbar():
                         html.I(className="fa-brands fa-linkedin"),  # Font Awesome Icon
                         " "  # Text beside icon
                     ],
-                    href="[YOUR LINKEDIN PROFILE URL]",
+                    href="https://www.linkedin.com/in/michael-mcmanus/",
                     target="_blank"
                 )
 
@@ -54,7 +54,7 @@ def create_navbar():
         brand='Home',
         brand_href="/",
         # sticky="top",  # Uncomment if you want the navbar to always appear at the top on scroll.
-        color="dark",  # Change this to change color of the navbar e.g. "primary", "secondary" etc.
+        color="primary",  # Change this to change color of the navbar e.g. "primary", "secondary" etc.
         dark=True,  # Change this to change color of text within the navbar (False for dark text)
     )
 
